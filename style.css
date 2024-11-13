@@ -1,0 +1,42 @@
+    body {
+        font-family: "Epilogue", sans-serif;
+        margin: 0 auto;
+        color: #2D2D2D;
+    }
+    nav{
+        text-align: center;
+        display: flex;
+        height: 78px;
+        padding: 0px 2em;
+        justify-content: space-between;
+        align-items: center;
+        border: 2px solid black;
+    }
+    nav .navigation a {
+        text-align: center;
+        text-decoration: none;
+        color: #2D2D2D;
+    }
+    nav .navigation {
+        display: flex;
+        text-align: center;
+        justify-content: space-between; 
+        gap: 1em;
+    }
+    nav div .Logo {
+        font-weight: bold;
+        font-size: 20px ;
+    }
+    header {
+        border: 2px solid red;
+        display: flex;
+
+    }
+    header div .left-column {
+        text-align: center;
+        justify-content: space-around;
+    }
+    header div .right-column {
+        align-items: center;
+        justify-content: space-around;
+    }
