@@ -30,6 +30,8 @@
     header {
         border: 2px solid red;
         display: flex;
+        justify-content: space-between;
+        padding: 3em;
 
     }
     header div .left-column {
@@ -39,4 +41,31 @@
     header div .right-column {
         align-items: center;
         justify-content: space-around;
+    }
+    h1 {
+        font-size: 68px;
+    }
+    header .left-column button {
+        background-color: #2D2D2D;
+        height: 78px;
+        width: 211px;
+        font-size: 20px;
+        text-align: center;
+        color: aliceblue;
+        margin-top: 20px;
+    }
+    .images {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border: 2px solid green;
+        height: 130.83px;
+    }
+
+    section #text_img {
+        height: 513px;
+        display: flex;
+        justify-content: space-around;
+        border: 10px solid violet;
+        background-color: blue;
     }
